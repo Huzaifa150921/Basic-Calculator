@@ -1,0 +1,45 @@
+.center{
+    text-align: center;
+}
+
+
+
+
+.mx-auto{
+margin: auto;
+}
+
+.flex{
+display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+fieldset{
+    background: rgb(49, 49, 70);
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+}
+
+
+.yellow{
+    background:rgb(216, 172, 90);
+}
+
+.black{
+    background: rgb(51, 45, 45);
+}
+
+#element
+{
+    text-align: center;
+    transition: 1s ease;
+}

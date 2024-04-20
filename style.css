@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    background: linear-gradient(wheat,white);
+}
+
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 8px black;
+}
+
+.button:hover{
+    box-shadow: none;
+}
+
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px 38px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+
+.row input::placeholder{
+    text-align: center;
+}

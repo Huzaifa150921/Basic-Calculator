@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <h1 id="element"></h1>
+    <div class="container mx-auto flex flex-col item-center color">
+        <fieldset>
+        <div class="row">
+            <input class="input" type="text" placeholder ="Calculate">
+        </div>
+
+       
+
+        <div class="row">
+            <button class="button black">7</button>
+            <button class="button black">8</button>
+            <button class="button black">9</button>
+            <button class="button yellow">C</button>
+
+        </div>
+
+        <div class="row">
+            <button class="button black">4</button>
+            <button class="button black">5</button>
+            <button class="button black">6</button>
+            <button class="button yellow" id="mul">X</button>
+            
+        </div>
+
+        <div class="row">
+            <button class="button black">1</button>
+            <button class="button black">2</button>
+            <button class="button black">3</button>
+            <button class="button yellow">/</button>
+            
+        </div>
+
+        <div class="row">
+            <button class="button black">0</button>
+            <button class="button black">=</button>
+            <button class="button yellow">-</button>
+            <button class="button yellow">+</button>
+            
+        </div>
+        </fieldset>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcom to Web Calculator'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
